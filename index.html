@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test site</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- PRELOADER -->
+    <div id="preloader" class="preloader align-center">
+        <span>Loading...</span>
+    </div>
+
+    <script>
+        document.getElementById("preloader").style.display = "flex";
+        window.onload = function () {
+            document.getElementById("preloader").style.display = "none";
+        };
+    </script>
+    <!-- END OF PRELOADER -->
+
+    <div class="top-bar">
+        <div class="top-bar-wrapper">
+            <ul class="top-bar-content">
+                <li>Telefon: 01234 / 56 78</li>
+                <li>E-Mail: info@domainname.de</li>
+                <li>My addess 18, 123467 Town</li>
+            </ul>
+        </div>
+    </div>
+    <div class="logo-navigation-wrapper">
+        <div class="mobile-nav">
+            <input id="mobile-nav-toggle" type="checkbox">
+            <label class="toggle-btn" for="mobile-nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="startseite active"><a href="#">Startseite</a></li>
+                <li class="aktuelles"><a href="#">Aktuelles</a></li>
+                <li class="leistungen has-sub">
+                    <div>
+                        <input id="submenu-toggle" type="checkbox">
+                        <label class="submenu-toggle-btn" for="submenu-toggle">
+                            <a>Leistungen </a>
+                            <img src="images/sort-down-solid.svg">
+                        </label>
+                        <ul class="sub">
+                            <li><a href="#">Sub page 1</a></li>
+                            <li><a href="#">Sub page 2</a></li>
+                            <li><a href="#">Sub page 3</a></li>
+                            <li><a href="#">Sub page 4</a></li>
+                            <li><a href="#">Sub page 5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="jobs"><a href="#">Jobs</a></li>
+                <li class="team"><a href="#">Team</a></li>
+                <li class="anfahrt"><a href="#">Anfahrt</a></li>
+                <li class="kontakt"><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+        <div class="slideshow">
+            <div class="claim">
+                <div class="content">
+                    <h1>Company name</h1>
+                    <p>
+                        <span>Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit. Nam vitae leo quis nunc
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="section-inner-wrapper">
+                <div class="section-content">
+                    <div class="first-section-title">
+                        <h1>Herzlich willkommen</h1>
+                        <h2>Nam vitae leo quis nunc consequat</h2>
+                    </div>
+                    <p>
+                        Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie
+                        aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften
+                        zu testen. Manchmal Sätze, die alle <strong>Buchstaben</strong> des Alphabets enthalten - man
+                        nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy
+                        old dog. Oft werden in
+                        <strong>Typoblindtexte</strong> auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are
+                        testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen.
+                    </p>
+                    <p>
+                        In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975
+                        fehlen in den meisten <u>Testtexten die Zahlen</u>, weswegen nach TypoGb. 204 § ab dem Jahr 2034
+                        Zahlen in 86 der Texte zur Pflicht
+                        werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft.
+                    </p>
+                </div>
+                <div class="first-section section-img">
+                    <img src="images/section-img1.jpg" alt="First section image">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="teaser">
+                <h1><span>Sed lacus nibh</span><br> maximus ac mollis nec</h1>
+                <div class="contacts-btn">
+                    <a href="#">Contact us</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="third-section">
+            <div class="section-inner-wrapper">
+                <div class="section-img">
+                    <img src="images/section-img2.jpg" alt="Third section image">
+                </div>
+                <div class="section-content">
+                    <div class="section-title">
+                        <h2>Vestibulum aliquet venenatis</h2>
+                    </div>
+                    <p>
+                        Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie
+                        aussehen. Manchmal benutzt man Worte wie Hamburgefonts, <strong>Rafgenduks</strong> oder
+                        Handgloves, um Schriften zu testen. Manchmal Sätze,
+                        die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. <u>Sehr bekannt
+                            ist dieser</u>: The quick brown fox jumps over the lazy old dog. Oft werden in
+                        Typoblindtexte auch fremdsprachige Satzteile eingebaut
+                        (AVAIL® and Wefox™ are testing
+                        <strong>aussi</strong> la Kerning), um die Wirkung in anderen Sprachen zu testen.
+                    </p>
+                    <ul>
+                        <li><strong>&gt;</strong> Hauptuntersuchung (HU)</li>
+                        <li><strong>&gt;</strong> Abgasuntersuchung (AU)</li>
+                        <li><strong>&gt;</strong> Hol- und Bring-Service</li>
+                        <li><strong>&gt;</strong> Reifenwechsel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="back-top">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 510" width="40px">
+                <path d="M256 504c137 0 248-111 248-248S393 8 256 8 8 119 8 256s111 248 248 248zm0-448c110.5 0 200 89.5 200 200s-89.5 200-200 200S56 366.5 56 256 145.5 56 256 56zm20 328h-40c-6.6 0-12-5.4-12-12V256h-67c-10.7 0-16-12.9-8.5-20.5l99-99c4.7-4.7 12.3-4.7 17 0l99 99c7.6 7.6 2.2 20.5-8.5 20.5h-67v116c0 6.6-5.4 12-12 12z">
+                </path>
+            </svg>
+        </a>
+    </div>
+    <footer>
+        <div class="contacts">
+            <a href="#">Contact us</a>
+        </div>
+        <div class="map">
+            <div class="google-maps">
+                <iframe src="https://maps.google.com/maps?q=viscomp&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="mapouter">
+    <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=viscomp&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+            href="https://www.whatismyip-address.com/divi-discount/"></a></div>
+</div> -->
